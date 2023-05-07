@@ -18,9 +18,7 @@ public class Main {
         CCuenta miCuenta;
         double saldoActual;
         
-        CCuenta miCuenta2;
-        
-        miCuenta2 = new CCuenta();
+        int suma = 0;  //variable usada para ver si constan las modificaciones
         
         miCuenta = new CCuenta("Manuel Mantecas","0000-1234-55-123456789",3000,0);
         try 
